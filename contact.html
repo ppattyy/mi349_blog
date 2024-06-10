@@ -18,5 +18,25 @@
         </ul>
     </nav>
 
+    <form>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required><br><br>
+        
+        <label for="email">Email address:</label>
+        <input type="email" id="email" name="email" required><br><br>
+        
+        <label for="reason">Reason for contact:</label>
+        <select id="reason" name="reason" required>
+            <option value="saying_hi">Saying Hi</option>
+            <option value="looking_contractor">Looking for a Contractor</option>
+            <option value="interested_interview">Interested in an Interview</option>
+        </select><br><br>
+        
+        <label for="comments">Comments:</label><br>
+        <textarea id="comments" name="comments" rows="4" cols="50"></textarea><br><br>
+        
+        <input type="submit" value="Submit">
+    </form>
+
 </body>
 </html>
