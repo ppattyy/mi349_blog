@@ -30,3 +30,7 @@ border-bottom: 1px dotted #ccc;
 a [href] {
     color: aqua;
 }
+
+a [alt] {
+    border-color: antiquewhite;
+}
