@@ -16,6 +16,12 @@ font-size: 3cm;
 margin: 0;
 }
 
+h2 {
+    font-size: .9cm; 
+    margin: 0; 
+    color: #454313; 
+}
+
 p {
 line-height: 1.4cm;
 }
@@ -29,7 +35,35 @@ border-bottom: 1px dotted #ccc;
 }
 
 img[src] {
-    border: 2px solid cyan;
+    border: 8px solid rgb(75, 68, 25);
 }
+
+.navbar {
+    background-color: #000000;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 10;
+    display: flex;
+    justify-content: space-around;
+}
+
+.navbar li a {
+    display: contents;
+    color: white;
+    padding: 10;}
+
+
+
+.navbar li a:hover {
+    background-color: white;
+    color: black;
+}
+
 
 
