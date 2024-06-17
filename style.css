@@ -12,17 +12,21 @@ body {
 }
 
 h1 {
-
+font-size: 3cm;
+margin: 0;
 }
 
 p {
-
+line-height: 1.4cm;
 }
 
 #blog {
-
+border-top: 1px dotted #ccc;
 }
 
 .blog-post {
-
+border-bottom: 1px dotted #ccc;
+}
+a [href] {
+    color: aqua;
 }
