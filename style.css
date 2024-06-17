@@ -33,4 +33,5 @@ a [href] {
 
 a [alt] {
     border-color: antiquewhite;
+    border-radius: 50px;
 }
