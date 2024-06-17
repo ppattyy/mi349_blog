@@ -27,11 +27,8 @@ border-top: 1px dotted #ccc;
 .blog-post {
 border-bottom: 1px dotted #ccc;
 }
-a [href] {
-    color: aqua;
+
+img[alt] {
+    border: 2px solid cyan;
 }
 
-a [alt] {
-    border-color: antiquewhite;
-    border-radius: 50px;
-}
